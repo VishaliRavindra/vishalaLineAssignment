@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="logo-title-container">
+                <img src="https://notinline.org/home-assets/img/logo.png" class="logo" />
+                <div class="heading-container">
+                    <p class="not-para">Not</p>
+                    <p class="in-para">In</p>
+                    <p class="line-para">Line</p>
+                </div>
+
+
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse toog" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="#">
+                        Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#">Health conditions</a>
+                    <a class="nav-link active" href="#">Lab Tests</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Medicines</a>
+                    <button class="patients-btn">For patients</button>
+                    <button class="hospitals-btn">For hospitals</button>
+                    <div class="play-store-container">
+                        <a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="play" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                            </svg></a>
+                        <button class="play-store-btn">play Store</button>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="details-lab-container">
+            <div class=" small-check-container">
+                <div class="body-check-cont">
+                    <div class="body-check">Get Full Body Checkup Now at
+                        <p class="currencyclass"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                                <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                            </svg>5,999</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee currencyclass" viewBox="0 0 16 16">
+                            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                        </svg>999
+                    </div>
+                    <div class="body-check2">70% off</div>
+                </div>
+            </div>
+
+
+            <div class="details-cost-container">
+                <div class="details-container">
+
+                    <p class="heading">Fill in the details to get a call!</p>
+                    <div class="input-icon-container">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person icons" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                            </svg></span>
+                        <input type="input" class="details-input" placeholder="FULL NAME" />
+
+                    </div>
+                    <div class="input-icon-container">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone icons" viewBox="0 0 16 16">
+                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                            </svg></span>
+                        <input type="input" class="details-input" placeholder="PHONE NUMBER" />
+
+                    </div>
+                    <div class="input-icon-container">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt icons" viewBox="0 0 16 16">
+                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg></span>
+                        <input type="input" class="details-input" placeholder="LOCATION" />
+
+                    </div>
+                    <div class="input-icon-container">
+                        <input type="checkbox" class="check-input" id="check" />
+                        <label for="check" class="label-text">By continuing, you agree to our T&C privacy policy</label>
+                    </div>
+                    <button class="pro-btn">Proceed</button>
+
+
+                </div>
+                <div class="small-two">
+                    <div class="body-check-cont small-two">
+                        <div class="body-check">Get Full Body Checkup Now at
+                            <p class="currencyclass"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                                    <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                                </svg>5,999</p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee currencyclass" viewBox="0 0 16 16">
+                                <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                            </svg>999
+                        </div>
+                        <div class="body-check2">70% off</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="image-container">
+                <div class="image-heading">
+                    <p class="p1">Best in class </p>
+                    <p class="p2">lab Tests!</p>
+                </div>
+
+                <img src="https://benekinddiagnostics.com/blog/wp-content/uploads/2023/01/hero-img.jpg" class="image-lab" />
+            </div>
+
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="logo-con1">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/d/d4/NABL_Official_LOGO_Registered.png" class="logo-middle-img" />
+                        <p class="logo-para">NABL Accredited Labs</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="logo-con2">
+                        <img src="https://www.clipartmax.com/png/middle/157-1579031_home-sample-collection-home-care.png" class="logo-middle-img" />
+                        <p class="logo-para">Free Sample Collection</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <h1 class="middle-heading">We are <span class="expand-head">expanding</span>!</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    <button class="button-expand">5+<br />Labs</button>
+                </div>
+                <div class="col-6 col-md-2">
+                    <button class="button-expand">100+<br />Collection<br />Centers</button>
+                </div>
+                <div class="col-6 col-md-2 last-icon1">
+                    <button class="button-expand">1000+<br />Monthly Tests</button>
+                </div>
+                <div class="col-6 col-md-2">
+                    <button class="button-expand">2200<br />Test Menu</button>
+                </div>
+                <div class="col-12 col-md-2 last-icon">
+                    <button class="button-expand">5+<br />Cities present in</button>
+                </div>
+            </div>
+        </div>
+        <h1 class="middle-heading">Top <span class="expand-head">Packages</span></h1>
+        <h2 class="middle-para">Explore a wide range of tests! We ensure that you don't miss out on any chance to keep yourself healthy.</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="package-con">
+                        <h2>Basic Full Body <br />Checkup</h2>
+                        <p>4.3 <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg></span>(75 Reviews)</p>
+                        <p>Number of tests-53</p>
+                        <p>MRP:<span class="package-box-line"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                                    <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                                </svg>10,000</span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                                <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                            </svg>8,490</p>
+                        <button class="book-btn">Book Now</button>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="package-con">
+                        <h2>Advance Full Body Checkup</h2>
+                        <p>4.7 <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg></span>(100 Reviews)</p>
+                        <p>Number of tests-53</p>
+                        <p>MRP:<span class="package-box-line"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                                    <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                                </svg>10,000</span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                                <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                            </svg>8,490</p>
+                        <button class="book-btn">Book Now</button>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="package-con">
+                        <h2>Liver Function Test (LFT)</h2>
+                        <p>4.3 <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg></span>(89 Reviews)</p>
+                        <p>Number of tests-53</p>
+                        <p>MRP:<span class="package-box-line"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                                    <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                                </svg>10,000</span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                                <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                            </svg>8,490</p>
+                        <button class="book-btn">Book Now</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <h1 class="middle-heading">Why <span class="expand-head">choose</span> us</h1>
+        <h2 class="middle-para">We want you and your heart to be healthy so you can live a happy life!</h2>
+        <div class="choose-container">
+            <div class="icon-data-cont">
+                <div class="package-item-container">
+                    <div class="large-container">
+                        <div class="icon-large-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/d/d4/NABL_Official_LOGO_Registered.png" class="package-icon-batch" />
+                        </div>
+                        <div class="body-large-item">
+                            <h2>NABL Accredited Labs</h2>
+                            <p>Get Accurate and safe result from our NABL-certified lab parterns.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="small-container">
+
+                        <img src="https://upload.wikimedia.org/wikipedia/en/d/d4/NABL_Official_LOGO_Registered.png" class="package-icon-batch" />
+
+
+                        <p>NABL Accredited Labs</p>
+                        <a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                            </svg></a>
+
+
+
+
+                    </div>
+
+                    <div class="large-container-one">
+                        <div class="icon-large-item">
+                            <img src="https://t3.ftcdn.net/jpg/02/25/70/72/360_F_225707294_V0jKFrHm1Bm5mLQjTAhKFplaWQIgdHby.jpg" class="package-icon-batch" />
+                        </div>
+                        <div class="body-large-item">
+                            <h2>Value experience</h2>
+                            <p>Experience seamless care without hassel of waiting in long lines of appointment. Book with us with healthier lifestyle.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="small-container">
+
+                        <img src="https://t3.ftcdn.net/jpg/02/25/70/72/360_F_225707294_V0jKFrHm1Bm5mLQjTAhKFplaWQIgdHby.jpg" class="package-icon-batch" />
+
+
+                        <p>Value experience</p>
+                        <a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                            </svg></a>
+
+                    </div>
+
+
+                </div>
+                <div class="package-item-container">
+                    <div class="large-container">
+                        <div class="icon-large-item">
+                            <img src="https://img.freepik.com/premium-vector/female-doctor-cartoon-character-white-background_1639-28810.jpg?w=2000" class="package-icon-batch" />
+                        </div>
+                        <div class="body-large-item">
+                            <h2>Timely Collections</h2>
+                            <p>We collect samples timely to prevent treatment delays and ensure you continued well-being</p>
+
+                        </div>
+
+                    </div>
+                    <div class="small-container">
+
+
+                        <img src="https://img.freepik.com/premium-vector/female-doctor-cartoon-character-white-background_1639-28810.jpg?w=2000" class="package-icon-batch" />
+
+
+                        <p>Timely Collections</p>
+                        <a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                            </svg></a>
+                    </div>
+
+                    <div class="large-container-one">
+                        <div class="icon-large-item">
+                            <img src="https://img.freepik.com/premium-vector/cartoon-male-doctor-holding-clipboard_29190-4660.jpg?w=2000" class="package-icon-batch" />
+                        </div>
+                        <div class="body-large-item">
+                            <h2>Transparency</h2>
+                            <p>Get Accurate and safe result from our NABL-certified lab parterns.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="small-container">
+                        <img src="https://img.freepik.com/premium-vector/cartoon-male-doctor-holding-clipboard_29190-4660.jpg?w=2000" class="package-icon-batch" />
+
+
+                        <p>Transparency</p>
+                        <a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                            </svg></a>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="doctor-woman-container">
+                <img src="https://img.freepik.com/free-photo/female-doctor-hospital-with-stethoscope_23-2148827776.jpg" class="doctor-image" />
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="book-doctor-appointment-container">
+                                <img src="https://notinline.org/home-assets/img/logo.png" class="hospital-sign" />
+                                <p class="footer-para">Book doctors appointments online and get your alignment treated with no time with our expert
+                                    medical support system. Get rid of all your medical problem with our expert panel of doctors who guide you towars a healtheir life.</p>
+                                <div class="phone-container">
+                                    <div class="footer-phone-container">
+                                        <div class="number-search-container">
+                                            <div class="number">
+                                                <p class="number-para">+91</p>
+                                                <span class="line">|</span>
+                                                <input type="search" />
+                                            </div>
+                                        </div>
+                                        <div class="phone-icon">
+                                            <a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone footer-icons" viewBox="0 0 16 16">
+                                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                                </svg></a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="footer-row">
+                                <div class="footer-column">
+                                    <h2>Services</h2>
+                                    <p class="ser-footer-para">Appointments</p>
+                                    <p class="ser-footer-para">Labtests</p>
+                                    <p class="ser-footer-para">A-Z Medicine</p>
+                                    <p class="ser-footer-para">Doctor Support</p>
+                                </div>
+                                <div class="footer-column">
+                                    <h2>Legal</h2>
+                                    <p class="ser-footer-para">Appointments</p>
+                                    <p class="ser-footer-para">Labtests</p>
+                                    <p class="ser-footer-para">A-Z Medicine</p>
+                                    <p class="ser-footer-para">Doctor Support</p>
+                                </div>
+                                <div class="footer-column">
+                                    <h2>Talk to us</h2>
+                                    <p class="ser-footer-para">Appointments</p>
+                                    <p class="ser-footer-para">Labtests</p>
+                                    <p class="ser-footer-para">A-Z Medicine</p>
+                                    <p class="ser-footer-para">Doctor Support</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="break-con">
+            <p class="copyright"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+                        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+                    </svg></span>2021-2023 All Rights Recieved</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
